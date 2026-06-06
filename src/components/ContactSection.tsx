@@ -1,17 +1,11 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Phone, ArrowRight } from "lucide-react";
+import { Mail, Phone, ArrowRight } from "lucide-react";
 import { useState } from "react";
 
 const EMAIL = "aliyousufpk304@gmail.com";
 const PHONE_DISPLAY = "+92 377 6220645";
 const PHONE_TEL = "+923776220645";
 
-const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: `mailto:${EMAIL}`, label: "Email" },
-];
 
 export function ContactSection() {
   const [sent, setSent] = useState(false);
