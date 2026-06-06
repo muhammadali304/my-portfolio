@@ -3,8 +3,8 @@ import { Mail, Phone, ArrowRight } from "lucide-react";
 import { useState } from "react";
 
 const EMAIL = "aliyousufpk304@gmail.com";
-const PHONE_DISPLAY = "+92 377 6220645";
-const PHONE_TEL = "+923776220645";
+const PHONE_DISPLAY = "+92 337 6220645";
+const PHONE_TEL = "+923376220645";
 
 
 export function ContactSection() {
@@ -64,7 +64,7 @@ export function ContactSection() {
         </motion.a>
 
         <motion.a
-          href="https://wa.me/923776220645" target="_blank" rel="noopener noreferrer"
+          href="https://wa.me/923376220645" target="_blank" rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
