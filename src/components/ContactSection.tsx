@@ -38,10 +38,11 @@ export function ContactSection() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.7 }}
-          className="mt-4 font-accent font-extrabold text-primary text-glow leading-[0.95]"
-          style={{ fontSize: "clamp(3rem, 7vw, 6rem)" }}
+          className="mt-4 font-accent font-extrabold leading-[0.95] tracking-tight"
+          style={{ fontSize: "clamp(2.5rem, 6.5vw, 5.5rem)" }}
         >
-          Let's Build Together
+          <span className="block text-foreground">Let's Build</span>
+          <span className="block text-primary text-glow">Together.</span>
         </motion.h2>
         <p className="mt-5 text-muted-foreground max-w-xl mx-auto">
           Have a project, an idea, or just want to say hi? Drop a line — I read every message.

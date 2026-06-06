@@ -36,10 +36,10 @@ export function EducationSection() {
         <p className="label-mono">— journey</p>
         <h2
           className="mt-4 font-accent font-extrabold leading-[0.95] tracking-tight"
-          style={{ fontSize: "clamp(2.75rem, 7vw, 6rem)" }}
+          style={{ fontSize: "clamp(2.5rem, 6.5vw, 5.5rem)" }}
         >
-          <span className="text-foreground">My </span>
-          <span className="text-primary text-glow">Journey</span>
+          <span className="block text-foreground">My</span>
+          <span className="block text-primary text-glow">Journey.</span>
         </h2>
       </div>
 

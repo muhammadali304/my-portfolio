@@ -39,10 +39,10 @@ export function ProjectsSection() {
           <p className="label-mono">— projects</p>
           <h2
             className="mt-4 font-accent font-extrabold leading-[0.95] tracking-tight"
-            style={{ fontSize: "clamp(2.75rem, 7vw, 6rem)" }}
+            style={{ fontSize: "clamp(2.5rem, 6.5vw, 5.5rem)" }}
           >
-            <span className="text-foreground">What I've </span>
-            <span className="text-primary text-glow">Built</span>
+            <span className="block text-foreground">What I've</span>
+            <span className="block text-primary text-glow">Built.</span>
           </h2>
         </div>
         <p className="text-muted-foreground max-w-md">
