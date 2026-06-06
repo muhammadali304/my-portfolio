@@ -1,17 +1,11 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Phone, ArrowRight } from "lucide-react";
+import { Mail, Phone, ArrowRight } from "lucide-react";
 import { useState } from "react";
 
 const EMAIL = "aliyousufpk304@gmail.com";
 const PHONE_DISPLAY = "+92 377 6220645";
 const PHONE_TEL = "+923776220645";
 
-const socials = [
-  { icon: Github, href: "#", label: "GitHub" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Mail, href: `mailto:${EMAIL}`, label: "Email" },
-];
 
 export function ContactSection() {
   const [sent, setSent] = useState(false);
@@ -118,26 +112,8 @@ export function ContactSection() {
         </button>
       </motion.form>
 
-      <div className="mt-12 flex justify-center gap-3 flex-wrap">
-        {socials.map((s, i) => {
-          const Icon = s.icon;
-          return (
-            <motion.a
-              key={s.label}
-              href={s.href}
-              aria-label={s.label}
-              initial={{ opacity: 0, y: 10 }}
-              whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true }}
-              transition={{ delay: i * 0.08 }}
-              whileHover={{ y: -4 }}
-              className="bento-cell bento-hover p-3.5 hover:bg-primary hover:text-primary-foreground transition-colors"
-            >
-              <Icon className="w-5 h-5" />
-            </motion.a>
-          );
-        })}
-      </div>
+
+
     </section>
   );
 }
