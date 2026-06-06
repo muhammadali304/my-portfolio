@@ -76,7 +76,7 @@ export function ContactSection() {
             <Phone className="w-5 h-5 text-primary" />
           </div>
           <div className="min-w-0">
-            <p className="label-mono">phone</p>
+            <p className="label-mono">whatsapp</p>
             <p className="mt-0.5 text-foreground font-medium text-sm">{PHONE_DISPLAY}</p>
           </div>
         </motion.a>
