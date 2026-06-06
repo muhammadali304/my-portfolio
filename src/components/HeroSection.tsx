@@ -77,7 +77,7 @@ export function HeroSection() {
           {/* Headline */}
           <h1
             className="mt-8 font-accent font-extrabold leading-[0.95] tracking-tight"
-            style={{ fontSize: "clamp(2.5rem, 6.5vw, 5.5rem)" }}
+            style={{ fontSize: "clamp(2.25rem, 5.5vw, 4.75rem)" }}
           >
             <span className="block overflow-hidden">
               <motion.span
