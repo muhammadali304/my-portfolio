@@ -64,7 +64,7 @@ export function ContactSection() {
         </motion.a>
 
         <motion.a
-          href={`tel:${PHONE_TEL}`}
+          href="https://wa.me/923776220645" target="_blank" rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
