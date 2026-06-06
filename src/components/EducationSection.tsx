@@ -4,10 +4,10 @@ import { GraduationCap, Code2, Server } from "lucide-react";
 const items = [
   {
     icon: GraduationCap,
-    title: "Web Development Course",
-    org: "Self-paced + Online Bootcamps",
-    period: "2023 — 2026",
-    desc: "Currently mastering the full web stack — from pixel-perfect UI in React & Tailwind to scalable backends with Node.js and modern databases.",
+    title: "GIAIC — Web Development",
+    org: "Governor Sindh Initiative for Artificial Intelligence, Computing & Cloud Computing",
+    period: "2024 — Present",
+    desc: "Enrolled in the official GIAIC program — building production-grade web apps with Next.js, TypeScript, and modern cloud-native tooling under industry mentors.",
     span: "md:col-span-2 md:row-span-2",
     featured: true,
   },
@@ -28,6 +28,7 @@ const items = [
     span: "md:col-span-2",
   },
 ];
+
 
 export function EducationSection() {
   return (
