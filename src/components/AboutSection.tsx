@@ -14,7 +14,7 @@ const skills = [
 const stats = [
   { value: "10+", label: "Projects Shipped" },
   { value: "3+", label: "Years Learning" },
-  { value: "20+", label: "Components Crafted" },
+  // { value: "20+", label: "Components Crafted" },
 ];
 
 export function AboutSection() {
